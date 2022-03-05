@@ -354,7 +354,7 @@ int main() {
     char *p3=&"hello";
     printf("\n This is the content pointed by p3: %s ", p3);
     //
-    //Now, let's make a pointer to pointer to char, we will use the pointer p that points to the char c we declare previously 
+    //Now, let's make a pointer to point to char, we will use the pointer p that points to the char c we declare previously 
     char **pp;
     pp=&p;
     //So, imagine pp is a box (the first box), that contains an address that points to a second box, that contains an address that points to a third box, that contains a char
